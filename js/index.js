@@ -12,6 +12,7 @@ window.onload = function load()
 {
 	buttonMouseExit("buttonContact");
 	buttonMouseExit("buttonDownloadResume");
+	
 }
 function buttonMouseExit(eleId)
 {
