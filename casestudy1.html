@@ -3,7 +3,7 @@
 	<head>
 		<title>Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="js/script.js"></script>
+		<script src="js/index.js"></script>
 	</head>
 	<body>
 		<header>
@@ -31,15 +31,24 @@
 				<img src="images/arttherapy.jpg" style="width: 60%";>
             </div>
 		</section>
+		<br>
 
-		    <div class="Casestudy1">
-                 <img src="images/Casestudy1.png" alt="Case study 1" style="width:98px">
-			     <img src="images/drawchain2.png" alt="Case study 1" style="width:100px">
-				 <img src="images/drawchain3.png" alt="Case study 1" style="width:100px">
-				 <img src="images/drawchain4.png" alt="Case study 1" style="width:100px">
-				 <img src="images/drawchain5.png" alt="Case study 1" style="width:100px">
-			     
+		<div class="row">
+			<div class="column">
+                 <img src="images/Casestudy1.png" alt="Case study 1">
+			</div>
+
+
+			<div class="column">
+			     <img src="images/drawchain2.png" alt="Case study 1">
+			</div>
+
+
+			<div class="column">
+			     <img src="images/drawchain4.png" alt="Case study 1">
+			</div>
 		</div>
+		
 		<section>
 			<div class="background">
 				<hr>
@@ -61,63 +70,66 @@
 	<h4><div style="text-align: right;"><button id = "buttonContact" onmouseover="buttonMouseEnter('buttonContact');" onmouseout="buttonMouseExit('buttonContact');">View full case study</button></h4>
 	<h4><div style="text-align: right;"><button id = "buttonDownloadResume" onmouseover="buttonMouseEnter('buttonDownloadResume');"onmouseout="buttonMouseExit('buttonDownloadResume');">View prototypes</button></h4>
 	
-		<div class="textcols">
-			<div class="textcols-item">
-					<ul>
-						<h4><b>Hard Skills</b></h4>
-						<ul>
-							<li>User Research
-							<li>Wireframing</li>
-							<li>Prototyping</li>
-							<li>Information Architecture</li>
-							<li>UX Writing</li>
-							<li>User testing</li>
-							<li>Interaction Design</li>
-							<li>Mobile Design</li>
-							<li>Information architecture</li>
-							<li>Research skills and analytics</li>
-						</ul>
-					</ul>
+		    <div class="step1">
+			    <div class="text"> 
+				<h1>RESERACH</h1>	
 				</div>
-				<div class="textcols-item">
-					<ul>
-						<h4><b>Soft Skills</b></h4>
-						<ul>
-							<li>Empathy</li>
-							<li>Open-Mindedness</li>
-							<li>Time-management</li>
-							<li>Teamplayer</li>
-							<li>Adaptation</li>
-							<li>Stress resistant</li>
-							<li>Communication</li>
-						</ul>
-					</ul>
-				</div>
-				<div class="textcols-item">
-					<ul>
-						<h4><b>UI/UX Software</b></h4>
-						<ul>
-							<li> Figma</li>
-							<li>InVision</li>
-							<li>Photoshop</li>
-							<li>Miro</li>
-						</ul>
-					</ul>
-				</div>
-			</div>
-		</section>
-		
-		<h4><button id = "buttonContact" onmouseover="buttonMouseEnter('buttonContact');" onmouseout="buttonMouseExit('buttonContact');">Download full case study</button></h4>
-		<h4><button id = "buttonDownloadResume" onmouseover="buttonMouseEnter('buttonDownloadResume');"onmouseout="buttonMouseExit('buttonDownloadResume');">Download resume</button></h4>
+			    <div class="image">
+			    <img src="images/step1.jpg"  align="right">
+			    </div>
+            </div>
+
+	    <p>Our group began research by creating a survey of six questions which received eighteen responses. We continued by conducting seven user interviews to gain more insight. We chose to interview people who prioritized charity and giving back. As a group, we worked together to develop fourteen questions with our three objectives in mind: 1) Collect interviewee demographic information 2) Determine what motivates people to give/volunteer 3) Understand how people engage with nonprofits and volunteer organizations </p>
 	
-		<div class="mywork">
-			<hr>
-			<h3>MY WORK<h3>
-			<img src="images/Casestudy1.png" alt="Case study 1" style="width:10%">
-			<a href="#">Case study 1</a>
-			<img src="images/Casestudy2.png" alt="Case study 1" style="width:10%">
-			<a href="#">Case study 2</a>
-		</div>
+		 <img src="images/user persona.png">
+		
+	
+             <div class="step2">
+			     <div class="image">
+				 <img src="images/step2.jpg"  align="left">
+				 </div>
+			     <div class="text"> 
+				 <h1>IDEATION</h1>	
+				 </div>
+			</div>
+			
+			<p>We used the heuristic analysis and interviews to give us an initial direction for our lo-fi prototype. Our subsequent usability testing uncovered issues with text density, imagery, lack of in-page navigation, and also some micro interaction difficulties. hrough our interviews we discovered that most people value financial transparency when deciding whether or not to work with a non-profit or charity organization. Several people stated that they would like to know where exactly their donations would be going.</p>
+			<img src="images/userflow.png">
+			
+			<div class="step1">
+			    <div class="text"> 
+				<h1>PROTOTYPING</h1>	
+				</div>
+			    <div class="image">
+			    <img src="images/step3.jpg"  align="right">
+			    </div>
+            </div>
+
+	    <p>We added more CTAs and navigational options to the homepage including a Chat box feature with quick links which made navigation easier. We even added some adorable little characters that mimic the logo.We overhauled the formerly text-heavy subpages and added relevant visuals to make the information less daunting and more easily digestible as well as adding to the overall aesthetic. We still wanted a vibrant and colorful look and feel for the subpages, but we also made sure it wasn’t overwhelming by finding a proper balance between color relationships and white space. We also couldn’t let the fact slide that Drawchange wasn’t mobile responsive so we applied the aforementioned changes into a mobile format; the only difference being the main nav being converted into a hamburger nav in the upper right corner</p>
+	
+		 <img src="images/wireframe.png">
+		 <br>
+		 <img src="images/mockup.png">
+
+		
+	
+             <div class="step2">
+			     <div class="image">
+				 <img src="images/step4.jpg"  align="left">
+				 </div>
+			     <div class="text"> 
+				 <h1>EVALUATION</h1>	
+				 </div>
+			</div>
+			
+			<p>The new look of the web site was more eye-appealing, easier and more intuitive to naviagate; people could faster find needed information, maximizing chances of making a donations or volunteer, which was our main goal. The trust to the website and organization in general dramasticaly increased since we solve all the pain points of our users- focusing on financial transarancy, making the layout of financial informaion more accesible, comprehensible and easier to find; showing the impact of donation/vounteer work for people better understand the difference they make, feeling more involved, building loyalty to the organization.</p>
+			<div class="hands">
+			<img src="images/hands.jpg"style="width:800px">
+		    </div>		
+			
+		
+
+
 		<footer>
 			<div class="footer">
 				<a href="https://www.facebook.com/olena.kulbaba"><img src="images/facebook.png" alt="Facebook" style="width:20%">
