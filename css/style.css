@@ -38,8 +38,8 @@ h2 {
 }
 
 .aboutme {
-	padding: 30px;
-	margin: 30px;
+	padding: 10px;
+	margin: 10px;
 	background-image: url("../images/aboutme.png");
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -47,8 +47,8 @@ h2 {
 
 h3 {
 	text-align: center;
-	font-family: Poppins;
-	font-size: 20px;
+	font-family: Cannu;
+	font-size: 40px;
 	margin-bottom: 30px;
 }
 
@@ -112,7 +112,7 @@ header li {
     display: inline-block;
     vertical-align: top;
     padding: 20px 30px;
-    font-size: 30px;
+    font-size: 32px;
     font-family: Cannu;
     color: brown;
 }
